@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-service-demo-service
+  namespace: demo
+data:
+  message: Hi
+  world_service_address: http://world-service-world-service:80
